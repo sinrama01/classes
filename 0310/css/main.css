@@ -1,0 +1,91 @@
+/*Table of Contents
+ ________________________
+parent
+children
+
+
+
+rules of float
+
+-parent element should have a width.
+-parent element should have an overflow property with value of auto
+-parent element position should be set to relative
+-parent element overflow should be set to auto
+
+-floated element should always /must have a width.
+-all floated elements should have the same height.
+-floated elements overflow should be hidden.
+-all floated elements should have a margin
+
+
+-background image.
+-we use  background-image: property
+-we add a value of url url("../images/slide3.jpg");
+-url is the location of the image
+-
+
+
+ ________________________*/
+
+ body{
+    width: 960px;
+    border:1px solid black;
+    margin: 0px auto 0px auto;
+    background-image: url("../images/slide3.jpg");
+    background-repeat:no-repeat;
+ }
+  
+
+ #main{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url("../images/slide3.jpg");
+    background-repeat:repeat;
+    
+
+
+ }
+
+ #main h2{
+    color: white;
+    background-color: black;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    margin: 0PX auto 0PX auto;
+    margin-top: 50px;
+ }
+
+ .family{
+     position: relative;
+     width: 900px;
+     border:1px solid black;
+     margin: 0px auto 0px auto;
+     padding:10px;
+     overflow: auto;
+ }
+
+
+ .child{
+    float: left;
+    width:250px;
+    height:300px;
+    overflow:hidden;
+    margin:5px;
+    padding:5px;
+    border: 1px solid black;
+
+
+ }
+
+ .child h2{
+  text-align: center;
+ }
+
+
+
+ .child p{
+
+    line-height: 30px;
+
+   }
